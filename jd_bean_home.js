@@ -20,6 +20,7 @@ cron "10 7 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scrip
 ============小火箭=========
 领京豆额外奖励 = type=cron,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bean_home.js, cronexpr="10 7 * * *", timeout=200, enable=true
  */
+
 const $ = new Env('领京豆额外奖励');
 
 const notify = $.isNode() ? require('./sendNotify') : '';
