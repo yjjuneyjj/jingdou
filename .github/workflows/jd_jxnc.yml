@@ -35,7 +35,7 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【苹果抽奖机】'
+      - name: '运行 【京喜农场】'
         run: |
           node jd_jxnc.js
         env:
@@ -48,7 +48,6 @@ jobs:
           TG_USER_ID: ${{ secrets.TG_USER_ID }}
           DD_BOT_TOKEN: ${{ secrets.DD_BOT_TOKEN }}
           DD_BOT_SECRET: ${{ secrets.DD_BOT_SECRET }}
-          IGOT_PUSH_KEY: ${{ secrets.IGOT_PUSH_KEY }}
           IGOT_PUSH_KEY: ${{ secrets.IGOT_PUSH_KEY }}
           JXNC_SHARECODES: ${{ secrets.JXNC_SHARECODES }}
 
