@@ -1,4 +1,3 @@
-<<<<<<< Upstream, based on origin/master
 # 不要fork! 请点亮Star
 
 ## 特别声明: 
@@ -139,6 +138,3 @@
 
 
 * [@nzw9314](https://github.com/nzw9314)
-=======
-## See you later
->>>>>>> bcefb8e See you later
